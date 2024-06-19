@@ -7,9 +7,11 @@ REPO_URL="https://github.com/KraHsu/CMakeTutorialForRM.git"
 REQUIRED_CMAKE_VERSION="3.1"
 
 # 检查是否安装了 CMake
-if ! command -v cmake &> /dev/null; then
+if [ ! -x "$(command -v cmake)" ]; then
     echo "Error: CMake is not installed."
     exit 1
+else
+    echo "CMake is installed at $(command -v cmake)"
 fi
 
 # 获取已安装的 CMake 版本
