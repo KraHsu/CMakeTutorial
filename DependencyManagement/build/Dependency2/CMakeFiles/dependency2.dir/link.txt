@@ -1,0 +1,2 @@
+/usr/bin/ar qc libdependency2.a CMakeFiles/dependency2.dir/src/Module1.cpp.o CMakeFiles/dependency2.dir/src/Module2.cpp.o
+/usr/bin/ranlib libdependency2.a

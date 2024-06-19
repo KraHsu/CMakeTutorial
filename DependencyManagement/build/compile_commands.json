@@ -1,0 +1,32 @@
+[
+{
+  "directory": "/home/charleshsu/workspace/RoboMaster/CMakeTutorial/DependencyManagement/build",
+  "command": "/usr/bin/clang++  -I/home/charleshsu/workspace/RoboMaster/CMakeTutorial/DependencyManagement/Dependency1/include -I/home/charleshsu/workspace/RoboMaster/CMakeTutorial/DependencyManagement/Dependency2/include -g -o CMakeFiles/dependency_management.dir/main.cpp.o -c /home/charleshsu/workspace/RoboMaster/CMakeTutorial/DependencyManagement/main.cpp",
+  "file": "/home/charleshsu/workspace/RoboMaster/CMakeTutorial/DependencyManagement/main.cpp",
+  "output": "CMakeFiles/dependency_management.dir/main.cpp.o"
+},
+{
+  "directory": "/home/charleshsu/workspace/RoboMaster/CMakeTutorial/DependencyManagement/build/Dependency1",
+  "command": "/usr/bin/clang++  -I/home/charleshsu/workspace/RoboMaster/CMakeTutorial/DependencyManagement/Dependency1/include -g -o CMakeFiles/dependency1.dir/src/Module1.cpp.o -c /home/charleshsu/workspace/RoboMaster/CMakeTutorial/DependencyManagement/Dependency1/src/Module1.cpp",
+  "file": "/home/charleshsu/workspace/RoboMaster/CMakeTutorial/DependencyManagement/Dependency1/src/Module1.cpp",
+  "output": "Dependency1/CMakeFiles/dependency1.dir/src/Module1.cpp.o"
+},
+{
+  "directory": "/home/charleshsu/workspace/RoboMaster/CMakeTutorial/DependencyManagement/build/Dependency1",
+  "command": "/usr/bin/clang++  -I/home/charleshsu/workspace/RoboMaster/CMakeTutorial/DependencyManagement/Dependency1/include -g -o CMakeFiles/dependency1.dir/src/Module2.cpp.o -c /home/charleshsu/workspace/RoboMaster/CMakeTutorial/DependencyManagement/Dependency1/src/Module2.cpp",
+  "file": "/home/charleshsu/workspace/RoboMaster/CMakeTutorial/DependencyManagement/Dependency1/src/Module2.cpp",
+  "output": "Dependency1/CMakeFiles/dependency1.dir/src/Module2.cpp.o"
+},
+{
+  "directory": "/home/charleshsu/workspace/RoboMaster/CMakeTutorial/DependencyManagement/build/Dependency2",
+  "command": "/usr/bin/clang++  -I/home/charleshsu/workspace/RoboMaster/CMakeTutorial/DependencyManagement/Dependency2/include -g -o CMakeFiles/dependency2.dir/src/Module1.cpp.o -c /home/charleshsu/workspace/RoboMaster/CMakeTutorial/DependencyManagement/Dependency2/src/Module1.cpp",
+  "file": "/home/charleshsu/workspace/RoboMaster/CMakeTutorial/DependencyManagement/Dependency2/src/Module1.cpp",
+  "output": "Dependency2/CMakeFiles/dependency2.dir/src/Module1.cpp.o"
+},
+{
+  "directory": "/home/charleshsu/workspace/RoboMaster/CMakeTutorial/DependencyManagement/build/Dependency2",
+  "command": "/usr/bin/clang++  -I/home/charleshsu/workspace/RoboMaster/CMakeTutorial/DependencyManagement/Dependency2/include -g -o CMakeFiles/dependency2.dir/src/Module2.cpp.o -c /home/charleshsu/workspace/RoboMaster/CMakeTutorial/DependencyManagement/Dependency2/src/Module2.cpp",
+  "file": "/home/charleshsu/workspace/RoboMaster/CMakeTutorial/DependencyManagement/Dependency2/src/Module2.cpp",
+  "output": "Dependency2/CMakeFiles/dependency2.dir/src/Module2.cpp.o"
+}
+]

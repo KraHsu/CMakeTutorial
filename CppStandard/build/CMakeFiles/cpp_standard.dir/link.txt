@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/cpp_standard.dir/main.cpp.o -o cpp_standard 

@@ -1,0 +1,113 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.11"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "Dependency1",
+					"jsonFile" : "directory-Dependency1-Debug-c27bf843ec2dbe16bbf6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.11"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Dependency1",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "Dependency2",
+					"jsonFile" : "directory-Dependency2-Debug-1535152369176035b776.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.11"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Dependency2",
+					"targetIndexes" : 
+					[
+						1
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2
+					],
+					"name" : "dependency_management",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "dependency1::@f5605b7e36be71eedcdd",
+					"jsonFile" : "target-dependency1-Debug-1ee22d0dc342ab287dda.json",
+					"name" : "dependency1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "dependency2::@8fab4be9e545fbebcb0a",
+					"jsonFile" : "target-dependency2-Debug-f50b140fa3ac515ebdcd.json",
+					"name" : "dependency2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dependency_management::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dependency_management-Debug-9c0b485d288ae31e038c.json",
+					"name" : "dependency_management",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/charleshsu/workspace/RoboMaster/CMakeTutorial/DependencyManagement/build",
+		"source" : "/home/charleshsu/workspace/RoboMaster/CMakeTutorial/DependencyManagement"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

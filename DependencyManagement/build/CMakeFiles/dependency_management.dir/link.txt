@@ -1,0 +1,1 @@
+/usr/bin/clang++ -g CMakeFiles/dependency_management.dir/main.cpp.o -o dependency_management  Dependency1/libdependency1.a Dependency2/libdependency2.a 
